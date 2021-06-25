@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+   File "/Users/JuanCuchara/PycharmProjects/kivy_tutorial/matplotlib_practice_1.py", line 1, in <module>
+     from kivy.garden.matplotlib.backend_kivyagg import FigureCanvasKivyAgg
+   File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/kivy/garden/__init__.py", line 180, in load_module
+     return self._load_module(fullname, moddir)
+   File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/kivy/garden/__init__.py", line 183, in _load_module
+     mod = imp.load_module(fullname, None, moddir,
+   File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/imp.py", line 244, in load_module
+     return load_package(name, filename)
+   File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/imp.py", line 216, in load_package
+     return _load(spec)
+   File "/Users/JuanCuchara/.kivy/garden/garden.matplotlib/__init__.py", line 1, in <module>
+     from kivy.garden.matplotlib.backend_kivy import FigureCanvasKivy,\
+   File "/Users/JuanCuchara/.kivy/garden/garden.matplotlib/backend_kivy.py", line 256, in <module>
+     from matplotlib import _png
+ ImportError: cannot import name '_png' from 'matplotlib' (/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/matplotlib/__init__.py)
+
+Process finished with exit code 1
