@@ -1,2 +1,2 @@
 # Longevity_Solutions_practice
-Preliminary, exploratory code for a Longetivity Solutions App
+Preliminary code for a Longetivity Solutions App
